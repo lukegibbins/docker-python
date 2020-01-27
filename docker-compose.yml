@@ -1,0 +1,7 @@
+# defines version docker-compose
+version: '3'
+
+services:
+  python-docker-container:
+    build: ./   # directory of dockerfile
+    command: python nltk-docker.py  # executing command
